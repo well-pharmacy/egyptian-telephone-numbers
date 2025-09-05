@@ -14,7 +14,7 @@ The generated files are:
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.8+ (due to the use of assignment expressions `:=`)
 - `pandas`
 - `requests`
 
@@ -24,9 +24,7 @@ The generated files are:
 
 2.  It is highly recommended to use a virtual environment to manage dependencies.
 
-3.  Install the required packages from `requirements.txt`.
-
-    **Using `uv`:**
+3.  Install the required packages from `requirements.txt` using `uv` (a fast, alternative installer):
     ```bash
     uv sync
     ```
